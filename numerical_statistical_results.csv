@@ -1,0 +1,4 @@
+variable,retained_median,laid_off_median,U_statistic,p_value
+tenure_years,3.7,3.5,77077527.0,8.95904875276329e-12
+performance_rating,3.4,3.2,83523473.0,1.3202727852168321e-68
+salary_k_usd,151.0,154.0,70454992.5,3.4277497006688033e-05

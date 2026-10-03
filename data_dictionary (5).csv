@@ -1,0 +1,16 @@
+column,dtype,description
+employee_id,string,Unique employee identifier.
+department,string,"engineering, sales, product, marketing, recruiting, support, g_and_a, research, data."
+cost_center_type,string,"revenue (revenue-generating), support, or cost_center (non-revenue)."
+team_wind_down,int,1 if the employee's team/project is being eliminated in the reorg (the dominant risk factor).
+tenure_years,float,Years at the company.
+is_recent_hire,int,1 if tenure < 1 year.
+performance_rating,float,"Most recent performance rating, 1-5."
+on_pip,int,1 if on a performance improvement plan.
+mgmt_layer,string,"IC (individual contributor), manager, or director."
+level,string,"junior, mid, senior, staff, lead."
+salary_k_usd,int,"Annual salary, USD thousands."
+high_salary,int,1 if salary is in the top quartile (cost-cut target).
+remote,int,1 if primarily remote.
+role_redundant,int,1 if the role is duplicated (post-merger/overlap).
+laid_off,int,TARGET (binary). 1 if selected in the layoff.
